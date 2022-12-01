@@ -1,6 +1,5 @@
 package com.example;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -10,7 +9,7 @@ import java.util.Map;
  * Hello world!
  *
  */
-public class App {
+public class DigitCounter {
 
     private static int start;
     private static int end;
@@ -38,7 +37,6 @@ public class App {
         } catch (NumberFormatException e) {
             System.out.println("Input Error: Inputs must be numbers."); 
             System.exit(1);
-            // test
         }
 
         

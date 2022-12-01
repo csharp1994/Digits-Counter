@@ -1,0 +1,31 @@
+Counts the occurance of a digit in a number series.
+
+Accepts 3 command line arguements:
+-   The start of the number series
+-   The end of the number series
+-   A comma delimited list of digits greater than 0 and less than 10
+
+Example:
+java DigitCounter 1 35 3,5 
+
+Output:
+3 occurs 3 times
+5 occurs 4 times. 
+
+Output logic:
+3 has one 3
+13 has one 3
+23 has one 3 
+30 has one 3
+31 has one 3
+32 has one 3
+33 has two 3s
+34 has one 3
+35 has one 3
+3 occurs 10 times in total.
+
+5 has one 5
+15 has one 5
+25 has one 5
+35 has one 5
+5 occurs 4 times in total.

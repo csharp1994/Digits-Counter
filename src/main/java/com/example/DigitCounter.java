@@ -5,10 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Hello world!
- *
- */
+
 public class DigitCounter {
 
     private static int start;
@@ -55,5 +52,6 @@ public class DigitCounter {
         for (Map.Entry<String, Integer> result : results.entrySet()) {
             System.out.println(result.getKey() + " occurs " + result.getValue() + " times.");
         }
+        System.exit(0);
     }
 }
